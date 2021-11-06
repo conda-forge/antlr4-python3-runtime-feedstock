@@ -1,5 +1,5 @@
 {% set name = "antlr4-python3-runtime" %}
-{% set version = "4.9.2" %}
+{% set version = "4.9.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/antlr4-python3-runtime-{{ version }}.tar.gz
-  sha256: 31f5abdc7faf16a1a6e9bf2eb31565d004359b821b09944436a34361929ae85a
+  sha256: f224469b4168294902bb1efa80a8bf7855f24c99aef99cbefc1bcd3cce77881b
 
 build:
   number: 0
